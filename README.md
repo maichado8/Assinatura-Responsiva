@@ -1,2 +1,5 @@
-# Assinatura-de-e-mail-responsiva-
-Assinatura responsiva de e-mail 
+# Assinatura-Responsiva
+
+Assinatura de e-mail para DESKTOP, MOOBLE, TABLET 
+
+Todos os tamanhos responsivo para a sua assinatura! 
