@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<title>Assinatura</title>
+</head>
+<table>
+	<style>
+
+		.body {
+			font-family: 'Roboto', sans-serif;
+			font-size: 14px;
+			color: #333333;
+			align-content: center;
+			margin-left: 15px;
+		}
+
+		a:link {
+			color: #511e84;
+		}
+
+		.linha-vertical {
+			top: 18px;
+			left: 16px;
+			width: 4px;
+			height: 109px;
+			background: var(--unnamed-color-511e84) 0% 0% no-repeat padding-box;
+			background: #511E84 0% 0% no-repeat padding-box;
+			border-radius: 20px;
+			opacity: 1;
+			color: #511E84;
+		}
+
+		.rb2 {
+			font-family: 'Roboto', sans-serif;
+
+		}
+
+		img {
+			margin-left: 101px;
+			width: 270px;
+			height: 109px;
+		}
+
+		.content {
+			position: relative
+		}
+
+		@media(max-width: 768px) {
+			img {
+				margin-top: 0px;
+				margin-left: 99px;
+				width: 152px;
+				height: 109px;
+			}
+		}
+
+
+		@media(max-width: 480px) {
+			img {
+				margin-top: 0px;
+				margin-left: 62px;
+				width: 110px;
+				height: 99px;
+			}
+		}
+
+		@media(min-width: 769px) {
+
+			img {
+				margin-left: 101px;
+				width: 270px;
+				height: 109px;
+			}
+		}
+	</style>
+	<tr>
+		<td>
+			<div class="linha-vertical">.</div>
+		</td>
+		<td>
+			<div class="body">
+				<strong>Maicon Machado</strong>
+				<br />
+				<a class="rb2">Desenvolvimento</a>
+				<br />
+				<br>
+				<a class="rb2" href="mailto:maicon.machado@nexello.com.br?subject=Hello%20again"
+					target="_blank">maicon.machado@nexello.com.br</a>
+				<br />
+				<a class="rb2" href="tel:48 3411-0800" target="tel">48 3411-0800</a>
+			</div>
+		</td>
+		<td class="content">
+			<a href="https://www.nexello.com.br/" target="_blank">
+				<picture>
+					<source media="(max-width: 480px)" srcset="https://www.nexello.com.br/media/img/email/nxl3.png">
+					<source media="(max-width: 768px)" srcset="https://www.nexello.com.br/media/img/email/nxl2.png">
+					<source media="(min-width: 769px)" srcset="https://www.nexello.com.br/media/img/email/nxl1.png">
+					<img src="https://www.nexello.com.br/media/img/email/nxl1.png" alt="foto inicial da assinatura">
+				</picture>
+			</a>
+		</td>
+	</tr>
+</table>
